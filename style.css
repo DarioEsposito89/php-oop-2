@@ -1,0 +1,34 @@
+nav {
+    height: 80px;
+    background-color: #edb425;
+    color: #ffffff;
+}
+
+main {
+    padding-top: 85px;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 9999;
+}
+
+.icon {
+    width: 30px;
+}
+
+
+.card {
+    height: 100%;
+    background-color: #edb425;
+}
+
+.card-img-top{
+    height: 400px;
+}
+
+body{
+    background-color: green;
+}
