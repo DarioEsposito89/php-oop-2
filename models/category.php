@@ -22,7 +22,8 @@ class category {
         if(strlen($_species)) {
             $this->species = $_species;
         } else {
-            $this->species = 'sconosciuta'; 
+        // EXCEPTION
+            throw new Exception ('sconosciuta'); 
         }
 
         return $this;
