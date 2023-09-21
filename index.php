@@ -1,9 +1,9 @@
 <?php
 
-include_once __DIR__ . '/Models/products.php';
-include_once __DIR__ . '/Models/food.php';
-include_once __DIR__ . '/Models/games.php';
-include_once __DIR__ . '/Models/boxes.php';
+require_once __DIR__ . '/Models/products.php';
+require_once __DIR__ . '/Models/food.php';
+require_once __DIR__ . '/Models/games.php';
+require_once __DIR__ . '/Models/boxes.php';
 
 
 $categoryCane = new category('Cane', 'dog.png');

@@ -1,6 +1,6 @@
 <?php
 
-include_once __DIR__ . '/products.php';
+require_once __DIR__ . '/products.php';
 
 class games extends products{
 
